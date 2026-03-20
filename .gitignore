@@ -1,0 +1,16 @@
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/exports/*.csv
+data/exports/r_plots/*.png
+data/*.db
+logs/*.log
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/exports/.gitkeep
+!logs/.gitkeep
